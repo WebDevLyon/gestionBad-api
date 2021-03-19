@@ -1,0 +1,36 @@
+{
+  "name": "gestionbad-api",
+  "version": "1.0.0",
+  "description": "API de scrapping et de communication avec la DB MongooDb pour la web app Gestion Badminton Club",
+  "main": "app.js",
+  "scripts": {
+    "app": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebDevLyon/gestionBad-api.git"
+  },
+  "keywords": [
+    "scrapping",
+    "mongoodb",
+    "api",
+    "restfull",
+    "express"
+  ],
+  "author": "Nicolas Lachise @Web Dev Lyon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebDevLyon/gestionBad-api/issues"
+  },
+  "homepage": "https://github.com/WebDevLyon/gestionBad-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.0",
+    "puppeteer": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  }
+}
